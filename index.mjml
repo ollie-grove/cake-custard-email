@@ -7,7 +7,7 @@
             <mj-text font-family="Oswald, sans-serif" align="center" font-size="18px" line-height="26px" color="#000000" padding="0px" />
             <mj-image padding="0px" />
 
-            <mj-button background-color="#F27D72" font-size="14px" color="#000000" font-family="Oswald, sans-serif" text-transform="uppercase" border-radius="0px" height="45px" width="200px" />
+            <mj-button background-color="#F27D72" font-size="14px" color="#000000" font-family="Oswald, sans-serif" text-transform="uppercase" border-radius="50px" height="45px" width="200px" />
 
             <mj-section padding="0px" background-color="#E2F28A" />
 
@@ -30,10 +30,13 @@
         
                 <mj-column>
                     <mj-image align="center" width="120px" padding="20px" border-radius="50px" src="https://images.unsplash.com/photo-1516876437184-593fda40c7ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1744&q=80" alt="" />
-                
+
+        
+                    
                 </mj-column>
+                
             </mj-group>
-            <mj-divider color="#401D15" />
+            
         </mj-section>
 
 <!-- welcome section -->
@@ -65,10 +68,66 @@
             </mj-column>
         </mj-section>
 
-        
+<!-- option section -->
+    <mj-section padding-top="10px" padding-left="30px" padding-right="30px">
 
+        <mj-column width="100px" padding="10px">
+            <mj-image width="80px"src="https://i.imgur.com/YjeiqZMt.png" alt="" />
+            <mj-text font-size="14px" line-height="21px" padding-top="15px">
+                same day delivery
+            </mj-text>
+            
+        </mj-column>
 
+        <mj-column width="100px" padding="10px">
+            <mj-image width="80px"src="https://i.imgur.com/X02GUYKt.png" alt="" />
+            <mj-text font-size="14px" line-height="21px" padding-top="15px">
+                made to order
+            </mj-text>
+            
+        </mj-column>
 
+        <mj-column width="100px" padding="10px">
+            <mj-image width="80px" src="https://i.imgur.com/H1UmNjft.png" alt="" />
+            <mj-text font-size="14px" line-height="21px" padding-top="15px">
+                custom flavors available
+            </mj-text>
+            
+        </mj-column>
+
+        <mj-column width="100px" padding="10px">
+            <mj-image width="80px"src="https://i.imgur.com/Exl3swOt.png" alt="" />
+            <mj-text font-size="14px" line-height="21px" padding-top="15px">
+                gluten-free & vegan options
+            </mj-text>
+            
+        </mj-column>
+
+    </mj-section>
+
+<!-- Footer section-->
+
+<mj-section background-color="#f1f1f1">
+    <mj-column>
+        <mj-social font-size="12px" icon-size="20px" mode="horizontal">
+            <mj-social-element padding="20px" font-family="poppins, sans-serif" name="facebook" href="https://mjml.io/">
+            Facebook
+            </mj-social-element>
+
+            <mj-social-element padding="20px" font-family="poppins, sans-serif" name="instagram" href="https://mjml.io/">
+            Instagram
+            </mj-social-element>
+
+            </mj-social>
+
+            <mj-text align="center" font-size="10px">1234 Number Ave Suite 200, Somewhere, WA 12345       
+        </mj-text>
+
+        <mj-button padding-top="20px" align="center" font-size="10px"> Unsubscribe
+        </mj-button>
+    </mj-column>
+    
+</mj-section>
 
     </mj-body>
 
