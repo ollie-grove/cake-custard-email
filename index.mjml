@@ -1,0 +1,75 @@
+
+<mjml>
+    
+    <mj-head>
+        <mj-font name="Oswald" href="https://fonts.googleapis.com/css2?family=Oswald" />
+        <mj-attributes>
+            <mj-text font-family="Oswald, sans-serif" align="center" font-size="18px" line-height="26px" color="#000000" padding="0px" />
+            <mj-image padding="0px" />
+
+            <mj-button background-color="#F27D72" font-size="14px" color="#000000" font-family="Oswald, sans-serif" text-transform="uppercase" border-radius="0px" height="45px" width="200px" />
+
+            <mj-section padding="0px" background-color="#E2F28A" />
+
+            <mj-class name="header-text" font-size="48px" line-height="69px" text-transform="uppercase" />
+                
+        </mj-attributes>
+    </mj-head>
+
+    <mj-body background-color="#E2F28A" >
+
+<!-- logo section -->
+
+        <mj-section background-color="#f1f1f1">
+            <mj-group>
+                <mj-column>
+                    <mj-text font-size="20px" padding-top="46px" color="#401D15" align="center" >
+                    Cake & Custard 
+                    </mj-text>
+                </mj-column>
+        
+                <mj-column>
+                    <mj-image align="center" width="120px" padding="20px" border-radius="50px" src="https://images.unsplash.com/photo-1516876437184-593fda40c7ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1744&q=80" alt="" />
+                
+                </mj-column>
+            </mj-group>
+            <mj-divider color="#401D15" />
+        </mj-section>
+
+<!-- welcome section -->
+
+<mj-section>
+            <mj-column>
+                <mj-text align="right" padding="20px" font-size="24px" text-transform="uppercase" line-height="1.4" >
+                Artisan Small-Batch Doughnuts  
+                </mj-text>
+                <mj-text align="right" padding="10px 20px 10px" font-size="16px" text-transform="lowercase" line-height="1.5">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod et dolore magna aliqua. 
+                </mj-text>
+                <mj-image src="https://images.unsplash.com/photo-1618411640026-24e40dcde1ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80" alt="doughnuts" />
+            </mj-column>
+        </mj-section>
+
+        <mj-section>
+            <mj-column>
+            <mj-text align="left" padding="20px 20px 10px" font-size="20px" text-transform="uppercase" line-height="1.5">
+            Special orders, catering, and custom doughnuts  
+            </mj-text>
+                <mj-image padding="10px 50px 10px" src="https://images.unsplash.com/photo-1570351807564-1fb2c1fc8019?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80" alt="doughnuts" />
+                <mj-button padding-top="20px">
+                    Order today!
+                </mj-button>
+                <mj-text font-size="12px" padding="0px">
+                    Use code "DONUT5" for 15% off your first order!
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        
+
+
+
+
+    </mj-body>
+
+</mjml>
