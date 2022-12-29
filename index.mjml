@@ -69,7 +69,7 @@
         </mj-section>
 
 <!-- option section -->
-    <mj-section padding-top="10px" padding-left="30px" padding-right="30px">
+    <mj-section padding-top="10px" padding-left="30px" padding-right="30px" padding-bottom="30px">
 
         <mj-column width="100px" padding="10px">
             <mj-image width="80px"src="https://i.imgur.com/YjeiqZMt.png" alt="" />
